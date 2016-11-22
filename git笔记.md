@@ -90,7 +90,18 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 
      拉取：git pull origin master
 
+
+   不用终端（命令行），可以用GUI(图形界面)
+
+   git与各种编辑器(brackets,sublime,hbuilder,webstorm)集成
    
+
+  git分支管理
+  解决文件冲突
+  tag管理
+  多人协作
+
+  
 
     
  
