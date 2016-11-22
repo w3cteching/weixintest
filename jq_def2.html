@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2>jQuery -promise</h2>
+	<button id="btn">获取</button>
+	<div class="result"></div>
+	
+<script src="../lib/jquery.1.12.min.js"></script>	
+<script>
+    $(function() {
+		$('#btn').on('click',function() {
+			
+
+		$.when($.ajax('./data/data1.php'),$.ajax('./data/data2.php'))
+		
+		  .done(function(data1,data2) {
+			 console.log($.parseJSON(data1[0]));
+			 console.log($.parseJSON(data2[0]));
+		})	.done(function(data1,data2) {
+				console.log('成功加载完毕');
+			})
+		 
+		  .fail(function(err) {
+			alert('失败')
+		
+		})/*.always(function() {
+			console.log('加载完毕');
+		})*/
+			  
+			  
+		
+		
+		
+		
+		});
+	
+	});
+</script>	
+</body>
+</html>

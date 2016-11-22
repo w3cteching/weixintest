@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h2>jQuery -promise</h2>
+	
+	
+<script src="../lib/jquery.1.12.min.js"></script>	
+<script>
+	var def=$.Deferred();
+	//console.log(def);
+	var show=function(def) {
+		
+		setTimeout(function() {
+			
+		
+		
+			def.reject();
+			//alert('hahaha');
+			
+		
+		},0);
+		
+		return def;
+	}
+
+	//show();
+	
+/*	show(def)
+	.done(function() {
+		alert('ttt');
+	})
+	.done(function() {
+       alert('aaaa');
+	})
+	
+	.fail(function() {
+		alert('bbbb');
+
+
+	})*/
+	
+/*	show(def)
+	  .then(
+	function() {
+		
+		alert('ok');
+	
+	},function() {
+	
+	    alert('no');
+	});
+	*/
+	
+	
+</script>	
+</body>
+</html>

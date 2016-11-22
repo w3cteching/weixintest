@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body ng-controller="ctrl">
+
+<input type="checkbox" ng-model="flag"><span>{{ title }}</span><span>{{ aa }}</span>
+<button ng-click="handle()">点击</button>
+
+
+<script src="../lib/angular.min.js"></script>
+<script>
+	
+	
+  var app=angular.module('myApp',[]);	
+	  app.controller('ctrl',['$scope','$q',function($scope,$q) {
+		  $scope.title="";
+		  $scope.flag=true;
+	
+		
+		
+		  
+		  
+		 //promise.then(成功，失败);
+		
+		  
+		
+		  
+		  $scope.handle=function() {	
+			var def=$q.defer()
+			var promise=def.promise;
+			
+			promise.then(function(data) {
+				 $scope.title=data;
+
+			 },function(data) {
+
+				 $scope.title=data
+			},function(data) {
+				$scope.title=data;
+			
+			})
+			  if($scope.flag) {		
+				 // alert('ok');
+			  	 def.resolve('成功选定');  //成功触发			  
+			  }
+			  
+			  if(!$scope.flag) {	
+				 // alert('error')
+			  	  //def.reject('失败')  //失败触发 
+				  def.notify('通知')
+			  
+			  }
+			  
+			 
+			  
+			  
+			  
+			  
+		  }
+		     
+		  
+		  
+		
+		  
+	  }]);
+	
+</script>		
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+ angular   $q
+
+ 一、$q：angular提供的异步编程服务
+
+   1.异步编程：回调函数,promise
+
+  回调陷阱
+
+  promise:即同步的方式来编写异步代码，优点：提高开发效率，代码可读性强，方便维护
+
+   
+promise.then(成功，失败，通知);
+
+
+通知：notify()
+成功：resolve()
+失败：reject()
+
+
+ 二、jquery实现异步编程
+
+  定时器本质是异步执行的
+  事件触发也是异步执行
+
+
+   
+  $.Deferred()  
+
+  done() 成功回调
+  fail() 失败回调
+  then(成功回调，失败回调)
+
+promise在ajax中的运用
+
+
+
+  
+  
