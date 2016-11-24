@@ -1,0 +1,29 @@
+diff --git a/views/news.html b/views/news.html
+index 16db54f..80d7365 100644
+--- a/views/news.html
++++ b/views/news.html
+@@ -17,6 +17,9 @@
+ 		<li>7777</li>
+ 	</ul>
+ 	
+-	<div class="box">2222</div>
++	<div class="box">
++		<div>1111</div>
++		
++	</div>
+ </body>
+ </html>
+\ No newline at end of file
+diff --git a/views/product.html b/views/product.html
+index acef27b..88c4650 100644
+--- a/views/product.html
++++ b/views/product.html
+@@ -16,5 +16,7 @@
+ 		<li>22222</li>
+ 		<li>888</li>
+ 	</ul>
++	
++	<button>提交</button>
+ </body>
+ </html>
+\ No newline at end of file
