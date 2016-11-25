@@ -160,6 +160,32 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 
   
 
+  https://www.jd.com/   -》ip-》服务器
+
+idc
+
+ github搭建个人网站
+
+  纯html页面(html,css,js)
+
+
+ github两种类型网站：
+
+  企业/组织网站： 用户名.github.io 默认主页index.html
+
+   例如：https://w3cteching.github.io/
+
+
+  独立项目网站： 用户名.github.io/项目名1
+      https://w3cteching.github.io/weixintest/
+  独立项目网站： 用户名.github.io/项目名2
+  独立项目网站： 用户名.github.io/项目名3
+
+  gh-pages
+  master分支
+  或者master/docs目录  对外开放网站
+ 
+
 
   
    
