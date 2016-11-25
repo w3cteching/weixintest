@@ -1,4 +1,5 @@
 
+
 git
  
 一、了解git与svn
@@ -95,11 +96,74 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 
    git与各种编辑器(brackets,sublime,hbuilder,webstorm)集成
    
-
+======================================
   git分支管理
   解决文件冲突
   tag管理
   多人协作
+  
+ 一、git diff命令使用 
+  git diff:查看文件之间差异
+   
+  查看工作区和暂存区文件差异: git diff 文件名  
+  查看暂存区和版本库之间的差异：git diff --cached
+  工作区与版本库的区别:git diff HEAD -- 文件名
+  查看两次版本库之间的差异：git diff commit_id commit_id
+  查看两个分支之间的差异
+   
+   
+   git diff > 文件名  将结果导出为一个文件
+   
+   
+ 二、git分支管理【重点】
+ 
+   查看分支：git branch  注：*代表当前分支
+   创建分支:git branch  分支名
+   切换分支： git checkout 分支名
+   
+   即创建也切换：git checkout -b 分支名
+   合并分支：git merge 分支名
+   
+   删除分支：
+   解决分支冲突：
+   如何看到历史分支
+
+
+   添加远程分支：git push origin 分支名
+   删除远程分支:git push origin :分支名
+
+
+三、tag（标签，版本）管理  
+
+  查看版本：git tag
+  查看某次版本的详细信息：git show tag名
+  创建版本：git tag 版本名
+
+   注：如何将版本打在指定的commit_id上 即：git tag v0.2 commit_id  
+
+
+
+
+  添加到远程版本 git push origin tag名
+
+
+四、多人协作
+
+  如果是第三方项目：应该先fork到本帐户下
+
+  fork:拷贝
+  star：收藏
+  watch：关注，如果项目有代码更改或bug修复，会第一时间以邮件的形式通知你
+
+
+
+  
+
+
+  
+   
+   
+   
 
   
 
