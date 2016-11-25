@@ -1,0 +1,184 @@
+*   commit dd7f47ff4847f4678aff493cff41038fea6ea347
+|\  Merge: 0e7643c ecb070f
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:41:40 2016 +0800
+| | 
+| |     新的提交在dev上
+| |   
+| * commit ecb070f27cd3e15c6cb398d69eec9d78838d0cd3
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:41:11 2016 +0800
+| | 
+| |     添加了 444在 wangyang
+| |     
+* |   commit 0e7643c933dedccef48a023e391e05a7d50f1269
+|\ \  Merge: 4810a2f dfed29e
+| |/  Author: 1412fe.c <1412fe@126.com>
+| |   Date:   Fri Nov 25 11:40:36 2016 +0800
+| |   
+| |       添加修改 dev 11.40
+| |   
+| * commit dfed29e35c944b48c75cf254ca87ebc4cc5a577d
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:38:11 2016 +0800
+| | 
+| |     添加333 on wangyang
+| |   
+* | commit 4810a2f476d2e16e53b28b1babc536d14daac59b
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:36:37 2016 +0800
+| | 
+| |     dev 111
+| |     
+* |   commit 3e6ff7572b0e5a18cdb00fcf01b24faf9886142a
+|\ \  Merge: d477805 5140d10
+| |/  Author: 1412fe.c <1412fe@126.com>
+| |   Date:   Fri Nov 25 11:34:52 2016 +0800
+| |   
+| |       Merge branch 'wangyang' into dev
+| |   
+| * commit 5140d105a5252a95180953ebd7ed5135bd473381
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:34:04 2016 +0800
+| | 
+| |     在wnagyang添加的内容2222
+| |   
+* | commit d4778051c74326ca20f83100fbb2a20ac174c96c
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:31:06 2016 +0800
+| | 
+| |     添加git笔记内容
+| |     
+* |   commit 5ca31fec44abb877de3836d01254dd08985fcae3
+|\ \  Merge: dbdc4bf 5faf7da
+| |/  Author: 1412fe.c <1412fe@126.com>
+| |   Date:   Fri Nov 25 11:27:55 2016 +0800
+| |   
+| |       修复了一个冲突在news.html
+| |   
+| * commit 5faf7da5f5cc65d3f171baf0a4bf777e8a337582
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Fri Nov 25 11:21:43 2016 +0800
+| | 
+| |     11.21
+| |   
+* | commit dbdc4bf6dfb93232805efb71d2f73512c80bb2a0
+|/  Author: 1412fe.c <1412fe@126.com>
+|   Date:   Fri Nov 25 11:22:42 2016 +0800
+|   
+|       在dev上添加的内容
+|  
+* commit 75d9fe6b60b3cd572546bf65835128a3d75e2967
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Fri Nov 25 11:19:57 2016 +0800
+| 
+|     修改了news.html
+|  
+* commit 80ff34ac8cf038f0885864ce93b99c2ce34a5451
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Thu Nov 24 15:23:25 2016 +0800
+| 
+|     add js on wangyang
+|  
+* commit f5bbaa4653c023cf9430c2d7abcd54cc3b985d59
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Thu Nov 24 15:19:19 2016 +0800
+| 
+|     del on dev
+|  
+* commit 3362943bb86336a2f77a29f3560c47ee33ef7838
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Thu Nov 24 15:00:21 2016 +0800
+| 
+|     15:00
+|  
+* commit d5411af51270b8c48a02f6d201f4ba5f091f1daa
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Thu Nov 24 14:54:52 2016 +0800
+| 
+|     14.54"
+|  
+* commit 111d908049cc4a7034149fbbea6f5bda667c28a5
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Thu Nov 24 14:42:06 2016 +0800
+| 
+|     14.42
+|  
+* commit 48a31f975b4e40903f6874be860e305153645da4
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Wed Nov 23 15:25:44 2016 +0800
+| 
+|     aaaa
+|  
+* commit 799b1a9253b68fcd75388c2f15641156c00e4f66
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Tue Nov 22 16:46:33 2016 +0800
+| 
+|     添加git笔记
+|  
+* commit 7c56fc7ef19088ac6f38b92946224802081e2f6a
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Tue Nov 22 16:26:13 2016 +0800
+| 
+|     修改了news和product页面
+|  
+* commit ba461b7f0e370e8005ca5fff77ca614e902ec48c
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Tue Nov 22 16:17:58 2016 +0800
+| 
+|     修改prod\uct.html
+|  
+* commit df3e829d3f0073a026fa4b0104ff1454a0d88d08
+| Author: 1412fe.c <1412fe@126.com>
+| Date:   Tue Nov 22 16:12:05 2016 +0800
+| 
+|     git笔记添加了远程连接配置功能
+|    
+*   commit 4f464140404a30d0ace717d8974d366ac2513d96
+|\  Merge: 6052d35 57e2164
+| | Author: 1412fe.c <1412fe@126.com>
+| | Date:   Tue Nov 22 16:07:30 2016 +0800
+| | 
+| |     Merge branch 'master' of github.com:w3cteching/weixintest
+| |   
+| * commit 57e2164fe4c4b359aa6370cc347c3a3328cf8bb8
+|   Author: w3cteching <hjl888666@126.com>
+|   Date:   Tue Nov 22 15:55:40 2016 +0800
+|   
+|       Initial commit
+|  
+* commit 6052d35cffddc8be3352c141c0528a0be9495dce
+| Author: 1410Fe.A <1410Fe@126.com>
+| Date:   Tue Nov 22 15:37:31 2016 +0800
+| 
+|     add node_modeuls
+|  
+* commit dbcb4ac7593a5e15c69133066c62f2ecb2b9afe3
+| Author: 1410Fe.A <1410Fe@126.com>
+| Date:   Tue Nov 22 15:35:44 2016 +0800
+| 
+|     111;
+|  
+* commit 20e1be8f8ee7897bfdf5249c1db39530a220e8da
+| Author: 1410Fe.A <1410Fe@126.com>
+| Date:   Tue Nov 22 15:33:51 2016 +0800
+| 
+|     add .gitignore
+|  
+* commit 5961b65bdead962fd5cafe92de3d4f8d681b2c0c
+| Author: 1410Fe.A <1410Fe@126.com>
+| Date:   Tue Nov 22 15:03:01 2016 +0800
+| 
+|     创建产品页面product.html
+|  
+* commit 2fdd65515e936bbe9669d3d99e1d3d97b39572f2
+| Author: 1410Fe.A <1410Fe@126.com>
+| Date:   Tue Nov 22 14:59:11 2016 +0800
+| 
+|      修改了news.html
+|  
+* commit 5a550b4fba07c016e15777ea7eba1dd12000d124
+  Author: 1410Fe.A <1410Fe@126.com>
+  Date:   Tue Nov 22 14:51:41 2016 +0800
+  
+      这是我的angular项目第一次提交
