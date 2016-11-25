@@ -123,8 +123,16 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
    即创建也切换：git checkout -b 分支名
    合并分支：git merge 分支名
    
-   删除分支：
-   解决分支冲突：
+   删除分支： git branch -d 分支名
+   
+    注: 若未合并，可能不能删除分支，若确定删除 git branch -D 分支名
+
+   解决分支冲突： 
+   
+      通常对一个文件在不同分支上进行修改，并且在合并时就会产生冲突，所以在合并后，要手动解决冲突
+	  手动解决冲突后，再git add ,再git commit
+	  
+   
    如何看到历史分支
  
    
