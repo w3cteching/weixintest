@@ -95,11 +95,41 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 
    git与各种编辑器(brackets,sublime,hbuilder,webstorm)集成
    
-
+======================================
   git分支管理
   解决文件冲突
   tag管理
   多人协作
+  
+ 一、git diff命令使用 
+  git diff:查看文件之间差异
+   
+  查看工作区和暂存区文件差异: git diff 文件名  
+  查看暂存区和版本库之间的差异：git diff --cached
+  工作区与版本库的区别:git diff HEAD -- 文件名
+  查看两次版本库之间的差异：git diff commit_id commit_id
+  查看两个分支之间的差异
+   
+   
+   git diff > 文件名  将结果导出为一个文件
+   
+   
+ 二、git分支管理【重点】
+ 
+   查看分支：git branch  注：*代表当前分支
+   创建分支:git branch  分支名
+   切换分支： git checkout 分支名
+   
+   即创建也切换：git checkout -b 分支名
+   合并分支：git merge 分支名
+   
+   删除分支：
+   解决分支冲突：
+   如何看到历史分支
+ 
+   
+   
+   
 
   
 
